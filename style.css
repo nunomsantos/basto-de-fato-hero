@@ -1,0 +1,58 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+main {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	top: 0;
+	background: #825630 url('landing.jpg') no-repeat top center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+main .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content {
+	font-family: sans-serif;
+	max-width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	color: #f8f8f8;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+	font-size: 7rem;
+    font-weight: 300;
+}
+
+p {
+	font-size: 4rem;
+    font-weight: 300;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 992px) {
+	h1 {
+      font-size: 6rem;
+      font-weight: 300;
+    }
+
+    p {
+      font-size: 3rem;
+      font-weight: 300;
+    }
+}
